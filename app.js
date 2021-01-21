@@ -1,6 +1,7 @@
 let n=Math.round(Math.random()*1000);
 
-/* First it test that number is always 1000-0 (so that it can be 1000 or 0 too): 
+/* First it test that number is always 1000-0: 
+
 let t=0;
 console.log(t);
     while (true) {
@@ -14,7 +15,9 @@ console.log(t);
         } else {
             console.log(t);
         }   
-    } */
+    } 
+Got both 1000 and 0, let's move on with the actual program:    */
+
 console.log(n);
 
     let translateN = function(n) {
